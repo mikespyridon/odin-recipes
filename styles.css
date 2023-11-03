@@ -17,20 +17,28 @@ img {
   height: auto;
 }
 
-a {
+.link {
+  background-color: lightgray;
   text-decoration: none;
+  font-size: 14px;
+  font-family: monospace;
+  
 }
 
-.recipe-link {
-  font-size: 20px;
-  padding-bottom: 10px;
+.parent {
+  display: grid;
+  place-content: center;
+
 }
 
 li {
-  padding-bottom: 5px;
+  padding: 18px;
+  background-color: lightgrey;
 }
 
 .title {
   font-size: 36px;
+  padding-right: 4px;
   padding-bottom: 40px;
+  margin-top: 60px;
 }
